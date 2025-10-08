@@ -47,7 +47,7 @@ jobs:
                 run: ./gradlew clean build -s
             -
                 name: Upload Jar
-                uses: actions/upload-artifact@v2
+                uses: actions/upload-artifact@v4
                 with:
                  name: Bruhfuscator
                  path: build/libs/*.jar
